@@ -1,0 +1,57 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'PB5' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   13 into depth [1][2][3][4]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1][2]
+                                   8            [1][2]
+                                   6            [1][2]
+                                   4            [1][2][3][4]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: UNSTACK BLOCK2 BLOCK5
+        1: STACK BLOCK2 BLOCK4
+        2: UNSTACK BLOCK5 BLOCK1
+        3: STACK BLOCK5 BLOCK8
+        4: UNSTACK BLOCK2 BLOCK4
+        5: STACK BLOCK2 BLOCK5
+        6: UNSTACK BLOCK1 BLOCK9
+        7: PUT-DOWN BLOCK1
+        8: UNSTACK BLOCK9 BLOCK3
+        9: PUT-DOWN BLOCK9
+       10: UNSTACK BLOCK3 BLOCK10
+       11: PUT-DOWN BLOCK3
+       12: UNSTACK BLOCK10 BLOCK6
+       13: STACK BLOCK10 BLOCK9
+       14: UNSTACK BLOCK6 BLOCK7
+       15: PUT-DOWN BLOCK6
+       16: UNSTACK BLOCK10 BLOCK9
+       17: STACK BLOCK10 BLOCK7
+     
+
+time spent:    0.00 seconds instantiating 220 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 131 facts and 220 actions
+               0.00 seconds creating final representation with 131 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 51 states, to a max depth of 4
+               0.00 seconds total time
+
