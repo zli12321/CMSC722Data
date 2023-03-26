@@ -1,0 +1,5 @@
+(define (problem pb1)
+	(:domain blocks)
+	(:objects block1 block2 block3 block4 block5 block6 block7 block8 block9 block10 block11 block12)
+	(:init (on block1 block8) (on block2 block10) (on block3 block5) (on block4 block3) (ontable block5) (on block6 block12) (clear block6) (ontable block7) (on block8 block4) (on block9 block2) (on block10 block1) (on block11 block7) (clear block11) (on block12 block9) (handempty))
+	(:goal (and (on block1 block9) (on block2 block6) (on block3 block12) (clear block3) (on block4 block10) (on block5 block2) (ontable block6) (on block7 block11) (on block8 block7) (clear block8) (ontable block9) (on block10 block1) (on block11 block4) (on block12 block5))))
