@@ -1,0 +1,50 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'PB7' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   49 into depth [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1][2]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1][2][3]
+                                  36            [1]
+                                  35            [1][2][3][4]
+                                  34            [1][2][3]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1][2][3]
+                                  30            [1]
+                                  29            [1][2][3][4][5][6][7][8]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1][2]
+                                  21            [1][2][3]
+                                  20            [1]
+                                  19            [1][2][3]
+                                  18            [1][2][3]
+                                  17            [1][2][3][4]
+                                  16            [1][2]
+                                  14            [1][2][3][4][5][6][7][8][9]
+                                  13            [1][2][3][4][5][6][7][8][9][10][11][12][13]
