@@ -1,0 +1,31 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  155 into depth [1]
+                                 145            [1]
+                                 136            [1]
+                                 135            [1]
+                                 126            [1]
+                                 125            [1]
+                                 124            [1]
+                                 123            [1]
+                                 122            [1]
+                                 120            [1]
+                                 119            [1]
+                                 118            [1]
+                                 117            [1]
+                                 116            [1]
+                                 115            [1][2][3][4]

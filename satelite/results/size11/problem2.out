@@ -1,0 +1,138 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   61 into depth [1]
+                                  59            [1]
+                                  56            [1]
+                                  53            [1]
+                                  52            [1]
+                                  51            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1][2][3]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1][2]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1][2][3]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: TURN_TO SATELLITE0 GROUNDSTATION1 GROUNDSTATION9
+        1: TURN_TO SATELLITE3 STAR5 STAR14
+        2: TURN_TO SATELLITE2 STAR10 STAR14
+        3: TURN_TO SATELLITE1 STAR8 PHENOMENON16
+        4: TURN_TO SATELLITE1 STAR10 STAR8
+        5: SWITCH_ON INSTRUMENT0 SATELLITE0
+        6: CALIBRATE SATELLITE0 INSTRUMENT0 GROUNDSTATION1
+        7: TURN_TO SATELLITE0 STAR13 GROUNDSTATION1
+        8: SWITCH_ON INSTRUMENT14 SATELLITE2
+        9: TURN_TO SATELLITE3 GROUNDSTATION1 STAR5
+       10: CALIBRATE SATELLITE2 INSTRUMENT14 STAR10
+       11: TURN_TO SATELLITE2 STAR18 STAR10
+       12: TURN_TO SATELLITE8 GROUNDSTATION1 STAR0
+       13: TAKE_IMAGE SATELLITE0 STAR13 INSTRUMENT0 THERMOGRAPH0
+       14: TURN_TO SATELLITE0 STAR14 STAR13
+       15: TAKE_IMAGE SATELLITE0 STAR14 INSTRUMENT0 THERMOGRAPH0
+       16: TAKE_IMAGE SATELLITE2 STAR18 INSTRUMENT14 SPECTROGRAPH4
+       17: SWITCH_ON INSTRUMENT25 SATELLITE3
+       18: CALIBRATE SATELLITE3 INSTRUMENT25 GROUNDSTATION1
+       19: TURN_TO SATELLITE3 PHENOMENON12 GROUNDSTATION1
+       20: TAKE_IMAGE SATELLITE3 PHENOMENON12 INSTRUMENT25 IMAGE9
+       21: TURN_TO SATELLITE3 PHENOMENON15 PHENOMENON12
+       22: TAKE_IMAGE SATELLITE3 PHENOMENON15 INSTRUMENT25 IMAGE9
+       23: TURN_TO SATELLITE3 PHENOMENON16 PHENOMENON15
+       24: TAKE_IMAGE SATELLITE3 PHENOMENON16 INSTRUMENT25 IMAGE9
+       25: TURN_TO SATELLITE3 PHENOMENON20 PHENOMENON16
+       26: TAKE_IMAGE SATELLITE3 PHENOMENON20 INSTRUMENT25 THERMOGRAPH7
+       27: TURN_TO SATELLITE3 PLANET21 PHENOMENON20
+       28: TAKE_IMAGE SATELLITE3 PLANET21 INSTRUMENT25 THERMOGRAPH7
+       29: SWITCH_ON INSTRUMENT9 SATELLITE1
+       30: TURN_TO SATELLITE6 STAR14 STAR0
+       31: CALIBRATE SATELLITE1 INSTRUMENT9 STAR10
+       32: TURN_TO SATELLITE1 PHENOMENON11 STAR10
+       33: TAKE_IMAGE SATELLITE1 PHENOMENON11 INSTRUMENT9 SPECTROGRAPH2
+       34: TURN_TO SATELLITE1 STAR13 PHENOMENON11
+       35: TAKE_IMAGE SATELLITE1 STAR13 INSTRUMENT9 SPECTROGRAPH2
+       36: TAKE_IMAGE SATELLITE1 STAR13 INSTRUMENT9 SPECTROGRAPH5
+       37: TURN_TO SATELLITE1 PLANET17 STAR13
+       38: TAKE_IMAGE SATELLITE1 PLANET17 INSTRUMENT9 SPECTROGRAPH2
+       39: TURN_TO SATELLITE1 STAR18 PLANET17
+       40: TAKE_IMAGE SATELLITE1 STAR18 INSTRUMENT9 SPECTROGRAPH5
+       41: TURN_TO SATELLITE1 PLANET21 STAR18
+       42: TAKE_IMAGE SATELLITE1 PLANET21 INSTRUMENT9 SPECTROGRAPH5
+       43: SWITCH_ON INSTRUMENT41 SATELLITE6
+       44: TURN_TO SATELLITE5 STAR5 STAR10
+       45: SWITCH_ON INSTRUMENT34 SATELLITE5
+       46: CALIBRATE SATELLITE5 INSTRUMENT34 STAR5
+       47: TURN_TO SATELLITE5 STAR14 STAR5
+       48: TAKE_IMAGE SATELLITE5 STAR14 INSTRUMENT34 IMAGE8
+       49: TURN_TO SATELLITE6 GROUNDSTATION7 STAR14
+       50: CALIBRATE SATELLITE6 INSTRUMENT41 GROUNDSTATION7
+       51: TURN_TO SATELLITE6 STAR14 GROUNDSTATION7
+       52: TAKE_IMAGE SATELLITE6 STAR14 INSTRUMENT41 SPECTROGRAPH10
+       53: TURN_TO SATELLITE6 PLANET19 STAR14
+       54: TAKE_IMAGE SATELLITE6 PLANET19 INSTRUMENT41 SPECTROGRAPH1
+       55: TURN_TO SATELLITE6 PHENOMENON20 PLANET19
+       56: TAKE_IMAGE SATELLITE6 PHENOMENON20 INSTRUMENT41 SPECTROGRAPH10
+     
+
+time spent:    0.00 seconds instantiating 8160 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 613 facts and 8160 actions
+               0.00 seconds creating final representation with 613 relevant facts, 0 relevant fluents
+               0.01 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.17 seconds searching, evaluating 779 states, to a max depth of 3
+               0.18 seconds total time
+

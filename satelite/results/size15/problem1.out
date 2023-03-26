@@ -1,0 +1,240 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  115 into depth [1]
+                                 112            [1]
+                                 111            [1]
+                                 109            [1]
+                                 107            [1]
+                                 105            [1]
+                                 104            [1]
+                                  98            [1]
+                                  96            [1]
+                                  95            [1]
+                                  94            [1]
+                                  93            [1]
+                                  91            [1]
+                                  90            [1]
+                                  89            [1]
+                                  88            [1]
+                                  87            [1]
+                                  86            [1]
+                                  85            [1]
+                                  84            [1]
+                                  83            [1]
+                                  82            [1]
+                                  81            [1]
+                                  78            [1]
+                                  77            [1]
+                                  76            [1]
+                                  75            [1]
+                                  74            [1]
+                                  73            [1]
+                                  72            [1]
+                                  71            [1]
+                                  70            [1]
+                                  69            [1]
+                                  68            [1]
+                                  67            [1]
+                                  66            [1]
+                                  65            [1]
+                                  64            [1]
+                                  63            [1]
+                                  62            [1]
+                                  61            [1]
+                                  60            [1]
+                                  59            [1]
+                                  58            [1]
+                                  57            [1]
+                                  56            [1]
+                                  55            [1]
+                                  54            [1]
+                                  53            [1]
+                                  52            [1]
+                                  51            [1]
+                                  50            [1]
+                                  49            [1]
+                                  48            [1]
+                                  47            [1]
+                                  46            [1]
+                                  45            [1]
+                                  44            [1]
+                                  43            [1]
+                                  42            [1]
+                                  41            [1]
+                                  40            [1][2][3][4][5]
+                                  39            [1]
+                                  38            [1]
+                                  37            [1]
+                                  36            [1]
+                                  35            [1]
+                                  34            [1]
+                                  33            [1]
+                                  32            [1]
+                                  31            [1]
+                                  30            [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  26            [1]
+                                  25            [1]
+                                  24            [1][2][3][4]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1][2]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: TURN_TO SATELLITE2 GROUNDSTATION7 PLANET19
+        1: TURN_TO SATELLITE2 GROUNDSTATION1 GROUNDSTATION7
+        2: TURN_TO SATELLITE3 STAR11 GROUNDSTATION7
+        3: TURN_TO SATELLITE0 GROUNDSTATION12 GROUNDSTATION1
+        4: TURN_TO SATELLITE5 GROUNDSTATION1 PHENOMENON21
+        5: TURN_TO SATELLITE5 GROUNDSTATION0 GROUNDSTATION1
+        6: TURN_TO SATELLITE6 GROUNDSTATION7 STAR22
+        7: SWITCH_ON INSTRUMENT20 SATELLITE2
+        8: TURN_TO SATELLITE1 GROUNDSTATION8 PHENOMENON15
+        9: CALIBRATE SATELLITE2 INSTRUMENT20 GROUNDSTATION1
+       10: TURN_TO SATELLITE2 PHENOMENON15 GROUNDSTATION1
+       11: SWITCH_ON INSTRUMENT26 SATELLITE3
+       12: TURN_TO SATELLITE4 STAR14 GROUNDSTATION2
+       13: CALIBRATE SATELLITE3 INSTRUMENT26 STAR11
+       14: TURN_TO SATELLITE3 PHENOMENON17 STAR11
+       15: SWITCH_ON INSTRUMENT1 SATELLITE0
+       16: CALIBRATE SATELLITE0 INSTRUMENT1 GROUNDSTATION12
+       17: TURN_TO SATELLITE0 PLANET19 GROUNDSTATION12
+       18: SWITCH_ON INSTRUMENT32 SATELLITE4
+       19: TURN_TO SATELLITE5 STAR4 GROUNDSTATION0
+       20: CALIBRATE SATELLITE4 INSTRUMENT32 STAR14
+       21: TURN_TO SATELLITE4 PLANET25 STAR14
+       22: SWITCH_ON INSTRUMENT5 SATELLITE1
+       23: CALIBRATE SATELLITE1 INSTRUMENT5 GROUNDSTATION8
+       24: TURN_TO SATELLITE1 PHENOMENON15 GROUNDSTATION8
+       25: TURN_TO SATELLITE1 PHENOMENON20 PHENOMENON15
+       26: TURN_TO SATELLITE9 GROUNDSTATION7 GROUNDSTATION1
+       27: TAKE_IMAGE SATELLITE2 PHENOMENON15 INSTRUMENT20 SPECTROGRAPH12
+       28: TURN_TO SATELLITE2 PLANET18 PHENOMENON15
+       29: TAKE_IMAGE SATELLITE3 PHENOMENON17 INSTRUMENT26 IMAGE2
+       30: TAKE_IMAGE SATELLITE3 PHENOMENON17 INSTRUMENT26 IMAGE3
+       31: TURN_TO SATELLITE3 PLANET18 PHENOMENON17
+       32: TAKE_IMAGE SATELLITE2 PLANET18 INSTRUMENT20 INFRARED6
+       33: TURN_TO SATELLITE2 PLANET19 PLANET18
+       34: TAKE_IMAGE SATELLITE3 PLANET18 INSTRUMENT26 IMAGE2
+       35: TURN_TO SATELLITE3 PHENOMENON21 PLANET18
+       36: TAKE_IMAGE SATELLITE2 PLANET19 INSTRUMENT20 INFRARED6
+       37: TAKE_IMAGE SATELLITE0 PLANET19 INSTRUMENT1 SPECTROGRAPH14
+       38: TAKE_IMAGE SATELLITE2 PLANET19 INSTRUMENT20 INFRARED8
+       39: TURN_TO SATELLITE2 PHENOMENON20 PLANET19
+       40: TAKE_IMAGE SATELLITE2 PHENOMENON20 INSTRUMENT20 SPECTROGRAPH12
+       41: TURN_TO SATELLITE2 STAR22 PHENOMENON20
+       42: TAKE_IMAGE SATELLITE1 PHENOMENON20 INSTRUMENT5 SPECTROGRAPH14
+       43: TAKE_IMAGE SATELLITE1 PHENOMENON20 INSTRUMENT5 THERMOGRAPH13
+       44: TURN_TO SATELLITE1 PHENOMENON15 PHENOMENON20
+       45: TAKE_IMAGE SATELLITE1 PHENOMENON15 INSTRUMENT5 THERMOGRAPH13
+       46: TURN_TO SATELLITE1 PLANET18 PHENOMENON15
+       47: TAKE_IMAGE SATELLITE1 PLANET18 INSTRUMENT5 THERMOGRAPH13
+       48: TURN_TO SATELLITE1 PHENOMENON24 PLANET18
+       49: TAKE_IMAGE SATELLITE3 PHENOMENON21 INSTRUMENT26 IMAGE2
+       50: TURN_TO SATELLITE3 PLANET19 PHENOMENON21
+       51: TAKE_IMAGE SATELLITE3 PLANET19 INSTRUMENT26 IMAGE3
+       52: TAKE_IMAGE SATELLITE2 STAR22 INSTRUMENT20 SPECTROGRAPH12
+       53: TAKE_IMAGE SATELLITE2 STAR22 INSTRUMENT20 INFRARED6
+       54: TURN_TO SATELLITE2 PHENOMENON21 STAR22
+       55: TAKE_IMAGE SATELLITE1 PHENOMENON24 INSTRUMENT5 SPECTROGRAPH10
+       56: TURN_TO SATELLITE1 PLANET27 PHENOMENON24
+       57: TAKE_IMAGE SATELLITE4 PLANET25 INSTRUMENT32 IMAGE5
+       58: TURN_TO SATELLITE4 PLANET28 PLANET25
+       59: TAKE_IMAGE SATELLITE1 PLANET27 INSTRUMENT5 THERMOGRAPH13
+       60: TAKE_IMAGE SATELLITE4 PLANET28 INSTRUMENT32 IMAGE5
+       61: TURN_TO SATELLITE13 PHENOMENON24 GROUNDSTATION7
+       62: SWITCH_ON INSTRUMENT108 SATELLITE13
+       63: TURN_TO SATELLITE13 STAR14 PHENOMENON24
+       64: CALIBRATE SATELLITE13 INSTRUMENT108 STAR14
+       65: TURN_TO SATELLITE13 PHENOMENON15 STAR14
+       66: TAKE_IMAGE SATELLITE13 PHENOMENON15 INSTRUMENT108 INFRARED1
+       67: TURN_TO SATELLITE13 PHENOMENON17 PHENOMENON15
+       68: TAKE_IMAGE SATELLITE13 PHENOMENON17 INSTRUMENT108 THERMOGRAPH11
+       69: TURN_TO SATELLITE13 PLANET19 PHENOMENON17
+       70: TAKE_IMAGE SATELLITE13 PLANET19 INSTRUMENT108 THERMOGRAPH11
+       71: TURN_TO SATELLITE13 PHENOMENON20 PLANET19
+       72: TAKE_IMAGE SATELLITE13 PHENOMENON20 INSTRUMENT108 INFRARED1
+       73: TURN_TO SATELLITE13 STAR22 PHENOMENON20
+       74: TAKE_IMAGE SATELLITE13 STAR22 INSTRUMENT108 THERMOGRAPH11
+       75: TURN_TO SATELLITE13 PLANET25 STAR22
+       76: TAKE_IMAGE SATELLITE13 PLANET25 INSTRUMENT108 INFRARED1
+       77: TURN_TO SATELLITE13 PHENOMENON26 PLANET25
+       78: TAKE_IMAGE SATELLITE13 PHENOMENON26 INSTRUMENT108 INFRARED1
+       79: TURN_TO SATELLITE13 PHENOMENON24 PHENOMENON26
+       80: TAKE_IMAGE SATELLITE13 PHENOMENON24 INSTRUMENT108 INFRARED1
+       81: SWITCH_ON INSTRUMENT38 SATELLITE5
+       82: CALIBRATE SATELLITE5 INSTRUMENT38 STAR4
+       83: TURN_TO SATELLITE5 PLANET16 STAR4
+       84: TAKE_IMAGE SATELLITE5 PLANET16 INSTRUMENT38 THERMOGRAPH0
+       85: TURN_TO SATELLITE5 PHENOMENON17 PLANET16
+       86: TAKE_IMAGE SATELLITE5 PHENOMENON17 INSTRUMENT38 THERMOGRAPH0
+       87: TURN_TO SATELLITE5 STAR22 PHENOMENON17
+       88: TAKE_IMAGE SATELLITE5 STAR22 INSTRUMENT38 INFRARED4
+       89: TURN_TO SATELLITE5 STAR23 STAR22
+       90: TAKE_IMAGE SATELLITE5 STAR23 INSTRUMENT38 THERMOGRAPH0
+       91: TURN_TO SATELLITE5 PLANET25 STAR23
+       92: TAKE_IMAGE SATELLITE5 PLANET25 INSTRUMENT38 THERMOGRAPH0
+       93: TURN_TO SATELLITE5 PHENOMENON26 PLANET25
+       94: TAKE_IMAGE SATELLITE5 PHENOMENON26 INSTRUMENT38 THERMOGRAPH0
+       95: TURN_TO SATELLITE5 STAR5 PHENOMENON26
+       96: SWITCH_ON INSTRUMENT54 SATELLITE6
+       97: TURN_TO SATELLITE7 GROUNDSTATION13 STAR4
+       98: CALIBRATE SATELLITE6 INSTRUMENT54 GROUNDSTATION7
+       99: TURN_TO SATELLITE6 PHENOMENON24 GROUNDSTATION7
+      100: SWITCH_ON INSTRUMENT59 SATELLITE7
+      101: CALIBRATE SATELLITE7 INSTRUMENT59 GROUNDSTATION13
+      102: TURN_TO SATELLITE7 STAR22 GROUNDSTATION13
+      103: TAKE_IMAGE SATELLITE7 STAR22 INSTRUMENT59 INFRARED7
+      104: TURN_TO SATELLITE7 PLANET25 STAR22
+      105: TAKE_IMAGE SATELLITE6 PHENOMENON24 INSTRUMENT54 IMAGE9
+      106: TURN_TO SATELLITE6 PHENOMENON20 PHENOMENON24
+      107: TAKE_IMAGE SATELLITE6 PHENOMENON20 INSTRUMENT54 IMAGE9
+      108: TAKE_IMAGE SATELLITE7 PLANET25 INSTRUMENT59 INFRARED7
+     
+
+time spent:    0.00 seconds instantiating 22047 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 1167 facts and 22047 actions
+               0.00 seconds creating final representation with 1167 relevant facts, 0 relevant fluents
+               0.07 seconds computing LNF
+               0.01 seconds building connectivity graph
+              90.53 seconds searching, evaluating 94891 states, to a max depth of 5
+              90.61 seconds total time
+
