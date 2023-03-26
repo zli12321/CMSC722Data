@@ -1,0 +1,14 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+warning: empty con/disjunction in domain definition. simplifying.
+
+
+ff: goal can be simplified to TRUE. The empty plan solves it
+

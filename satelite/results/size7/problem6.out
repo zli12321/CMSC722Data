@@ -1,0 +1,89 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   31 into depth [1]
+                                  29            [1]
+                                  28            [1]
+                                  27            [1]
+                                  25            [1]
+                                  24            [1]
+                                  23            [1]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: TURN_TO SATELLITE5 GROUNDSTATION2 PHENOMENON8
+        1: TURN_TO SATELLITE0 STAR6 STAR0
+        2: SWITCH_ON INSTRUMENT12 SATELLITE4
+        3: TURN_TO SATELLITE4 GROUNDSTATION4 PHENOMENON9
+        4: CALIBRATE SATELLITE4 INSTRUMENT12 GROUNDSTATION4
+        5: TURN_TO SATELLITE4 PLANET7 GROUNDSTATION4
+        6: SWITCH_ON INSTRUMENT6 SATELLITE2
+        7: SWITCH_ON INSTRUMENT2 SATELLITE0
+        8: TURN_TO SATELLITE1 PHENOMENON8 STAR12
+        9: TURN_TO SATELLITE5 STAR10 GROUNDSTATION2
+       10: TAKE_IMAGE SATELLITE4 PLANET7 INSTRUMENT12 IMAGE0
+       11: TURN_TO SATELLITE4 PHENOMENON8 PLANET7
+       12: TAKE_IMAGE SATELLITE4 PHENOMENON8 INSTRUMENT12 IMAGE0
+       13: TURN_TO SATELLITE4 PHENOMENON9 PHENOMENON8
+       14: CALIBRATE SATELLITE0 INSTRUMENT2 STAR6
+       15: TURN_TO SATELLITE0 STAR10 STAR6
+       16: TAKE_IMAGE SATELLITE4 PHENOMENON9 INSTRUMENT12 IMAGE0
+       17: TAKE_IMAGE SATELLITE4 PHENOMENON9 INSTRUMENT12 THERMOGRAPH3
+       18: TURN_TO SATELLITE4 STAR12 PHENOMENON9
+       19: TAKE_IMAGE SATELLITE0 STAR10 INSTRUMENT2 SPECTROGRAPH5
+       20: TURN_TO SATELLITE0 PLANET13 STAR10
+       21: TAKE_IMAGE SATELLITE4 STAR12 INSTRUMENT12 THERMOGRAPH3
+       22: TURN_TO SATELLITE4 PLANET13 STAR12
+       23: TAKE_IMAGE SATELLITE0 PLANET13 INSTRUMENT2 SPECTROGRAPH5
+       24: TURN_TO SATELLITE2 STAR3 PLANET11
+       25: CALIBRATE SATELLITE2 INSTRUMENT6 STAR3
+       26: TURN_TO SATELLITE2 PLANET11 STAR3
+       27: TAKE_IMAGE SATELLITE2 PLANET11 INSTRUMENT6 IMAGE6
+       28: TAKE_IMAGE SATELLITE2 PLANET11 INSTRUMENT6 INFRARED1
+       29: TURN_TO SATELLITE2 GROUNDSTATION4 PLANET11
+     
+
+time spent:    0.00 seconds instantiating 2149 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 249 facts and 2149 actions
+               0.00 seconds creating final representation with 249 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 119 states, to a max depth of 2
+               0.00 seconds total time
+
