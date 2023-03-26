@@ -1,0 +1,55 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  268 into depth [1]
+                                 264            [1]
+                                 258            [1]
+                                 254            [1]
+                                 248            [1]
+                                 231            [1]
+                                 230            [1]
+                                 228            [1]
+                                 214            [1]
+                                 197            [1]
+                                 188            [1]
+                                 187            [1]
+                                 186            [1]
+                                 185            [1]
+                                 184            [1]
+                                 183            [1]
+                                 182            [1]
+                                 181            [1]
+                                 180            [1]
+                                 179            [1]
+                                 178            [1]
+                                 177            [1]
+                                 176            [1]
+                                 175            [1]
+                                 174            [1]
+                                 173            [1]
+                                 172            [1]
+                                 171            [1]
+                                 170            [1]
+                                 169            [1]
+                                 168            [1]
+                                 167            [1]
+                                 166            [1]
+                                 165            [1]
+                                 164            [1]
+                                 163            [1]
+                                 162            [1]
+                                 161            [1]
+                                 160            [1][2][3]

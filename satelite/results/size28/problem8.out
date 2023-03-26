@@ -1,0 +1,49 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  369 into depth [1]
+                                 366            [1]
+                                 352            [1]
+                                 346            [1]
+                                 331            [1]
+                                 323            [1]
+                                 314            [1]
+                                 296            [1]
+                                 294            [1]
+                                 293            [1]
+                                 279            [1]
+                                 272            [1]
+                                 255            [1]
+                                 252            [1]
+                                 251            [1]
+                                 246            [1]
+                                 245            [1]
+                                 244            [1]
+                                 243            [1]
+                                 242            [1]
+                                 241            [1]
+                                 240            [1]
+                                 239            [1]
+                                 238            [1]
+                                 237            [1]
+                                 236            [1]
+                                 235            [1]
+                                 234            [1]
+                                 233            [1]
+                                 232            [1]
+                                 231            [1][2][3]
+                                 230            [1]
+                                 227            [1][2][3]

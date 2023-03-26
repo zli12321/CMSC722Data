@@ -1,0 +1,50 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  312 into depth [1]
+                                 307            [1]
+                                 304            [1]
+                                 302            [1]
+                                 296            [1]
+                                 278            [1]
+                                 273            [1]
+                                 266            [1]
+                                 264            [1]
+                                 263            [1]
+                                 261            [1]
+                                 260            [1]
+                                 256            [1]
+                                 255            [1]
+                                 254            [1]
+                                 253            [1]
+                                 252            [1]
+                                 249            [1]
+                                 248            [1]
+                                 247            [1]
+                                 246            [1]
+                                 245            [1]
+                                 244            [1]
+                                 243            [1]
+                                 242            [1]
+                                 241            [1]
+                                 240            [1]
+                                 239            [1]
+                                 238            [1]
+                                 237            [1]
+                                 236            [1]
+                                 235            [1]
+                                 234            [1]
+                                 233            [1][2][3]

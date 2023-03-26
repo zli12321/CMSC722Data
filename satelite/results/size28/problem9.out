@@ -1,0 +1,52 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  275 into depth [1]
+                                 268            [1]
+                                 263            [1]
+                                 257            [1]
+                                 246            [1]
+                                 244            [1]
+                                 242            [1]
+                                 238            [1]
+                                 235            [1]
+                                 232            [1]
+                                 231            [1]
+                                 230            [1]
+                                 229            [1][2]
+                                 227            [1][2]
+                                 226            [1]
+                                 225            [1]
+                                 224            [1]
+                                 223            [1]
+                                 222            [1]
+                                 221            [1]
+                                 220            [1]
+                                 219            [1]
+                                 218            [1]
+                                 217            [1]
+                                 216            [1]
+                                 215            [1]
+                                 214            [1]
+                                 213            [1]
+                                 212            [1]
+                                 211            [1]
+                                 210            [1]
+                                 209            [1]
+                                 208            [1]
+                                 207            [1]
+                                 206            [1]
+                                 205            [1][2][3]

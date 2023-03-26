@@ -1,0 +1,53 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  152 into depth [1]
+                                 150            [1]
+                                 149            [1]
+                                 148            [1]
+                                 145            [1]
+                                 144            [1]
+                                 138            [1]
+                                 137            [1]
+                                 133            [1]
+                                 132            [1]
+                                 131            [1]
+                                 130            [1]
+                                 129            [1]
+                                 128            [1]
+                                 127            [1]
+                                 126            [1]
+                                 125            [1]
+                                 124            [1]
+                                 123            [1]
+                                 122            [1]
+                                 121            [1]
+                                 120            [1]
+                                 119            [1]
+                                 118            [1]
+                                 117            [1][2]
+                                 116            [1][2]
+                                 115            [1]
+                                 114            [1]
+                                 113            [1]
+                                 112            [1]
+                                 111            [1]
+                                 110            [1]
+                                 109            [1]
+                                 108            [1]
+                                 107            [1]
+                                 106            [1]
+                                 105            [1][2][3][4]

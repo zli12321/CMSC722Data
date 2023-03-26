@@ -1,0 +1,54 @@
+
+ff: parsing domain file
+domain 'SATELLITE' defined
+ ... done.
+ff: parsing problem file
+problem 'STRIPS-SAT-X-1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:  270 into depth [1]
+                                 264            [1]
+                                 261            [1]
+                                 240            [1]
+                                 239            [1]
+                                 238            [1]
+                                 232            [1]
+                                 224            [1]
+                                 223            [1]
+                                 220            [1]
+                                 203            [1]
+                                 202            [1]
+                                 201            [1]
+                                 200            [1]
+                                 199            [1]
+                                 196            [1]
+                                 195            [1]
+                                 194            [1]
+                                 193            [1]
+                                 192            [1]
+                                 191            [1]
+                                 190            [1]
+                                 189            [1]
+                                 188            [1]
+                                 187            [1]
+                                 186            [1]
+                                 185            [1]
+                                 184            [1]
+                                 183            [1]
+                                 182            [1]
+                                 181            [1]
+                                 180            [1]
+                                 179            [1][2]
+                                 178            [1][2]
+                                 177            [1]
+                                 176            [1]
+                                 175            [1][2]
+                                 174            [1][2][3]
