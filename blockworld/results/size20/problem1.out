@@ -1,0 +1,33 @@
+
+ff: parsing domain file
+domain 'BLOCKS' defined
+ ... done.
+ff: parsing problem file
+problem 'PB1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   35 into depth [1][2][3]
+                                  34            [1][2][3][4][5][6][7][8]
+                                  33            [1][2]
+                                  32            [1][2][3][4]
+                                  31            [1][2][3][4][5][6][7]
+                                  29            [1][2][3][4][5]
+                                  28            [1][2][3][4][5]
+                                  27            [1]
+                                  26            [1][2][3]
+                                  25            [1]
+                                  24            [1][2][3][4]
+                                  23            [1][2][3]
+                                  22            [1]
+                                  21            [1]
+                                  20            [1][2][3][4][5]
+                                  19            [1][2][3][4][5][6][7][8][9][10][11][12]
+                                  18            [1][2][3][4][5][6][7][8][9][10][11]
